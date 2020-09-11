@@ -39,5 +39,5 @@ if __name__ == '__main__':
         for country_link in WikiLink(COUNTRIES):
             country_names_file.write(f'{country_link}\n')
 
-    for hash_string in get_hash(WIKIPEDIA_LINKS):
-        print(hash_string)
+    for hash_str in get_hash(WIKIPEDIA_LINKS):
+        print(hash_str)
