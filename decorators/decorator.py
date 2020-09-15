@@ -13,7 +13,6 @@ def get_log(func):
                        f'Аргументы: {args, kwargs}\n'
                        f'Результат: {result}\n')
         return result
-
     return foo
 
 

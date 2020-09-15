@@ -16,10 +16,8 @@ def get_log(path):
                            f'Имя функции: {func_name}\n'
                            f'Аргументы: {args, kwargs}\n'
                            f'Результат: {result}\n')
-            return foo
-
+            return result
         return foo
-
     return decor
 
 
